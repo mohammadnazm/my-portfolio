@@ -30,10 +30,23 @@ const Navbar = () => {
           {navLinks.map(nav => (
             <li
               key={nav.id}
-              onClick={() => setActive(nav.title)}
               className={`${
-                active === Link.title ? "text-white" : "text-secondary"
-              }} hover:text-white text-[18px] font-medium cursor-pointer`}
+                active === nav.title ? "text-white" : "text-secondary"
+              } hover:text-white text-[18px] font-medium cursor-pointer`}
+              onClick={() => setActive(nav.title)}
+            >
+              <a href={`#${nav.id}`}>{nav.title}</a>
+            </li>
+          ))}
+        </ul>
+        <ul className="list-none hidden sm:flex flex-row gap-10">
+          {navLinks.map(nav => (
+            <li
+              key={nav.id}
+              className={`${
+                active === nav.title ? "text-white" : "text-secondary"
+              } hover:text-white text-[18px] font-medium cursor-pointer`}
+              onClick={() => setActive(nav.title)}
             >
               <a href={`#${nav.id}`}>{nav.title}</a>
             </li>
