@@ -1,8 +1,9 @@
 import React from "react"
 import {
   VerticalTimeline,
-  VerticalTimeLineElement,
+  VerticalTimelineElement,
 } from "react-vertical-timeline-component"
+import "react-vertical-timeline-component/style.min.css"
 
 import { motion } from "framer-motion"
 import { styles } from "../styles"
@@ -17,6 +18,10 @@ const Experience = () => {
         <p className={styles.sectionSubText}>What I have done so far</p>
         <h2 className={styles.sectionHeadText}>Work Experience</h2>
       </motion.dev>
+
+      <div className="mt-20 flex flex-col">
+        <VerticalTimeline></VerticalTimeline>
+      </div>
     </>
   )
 }
