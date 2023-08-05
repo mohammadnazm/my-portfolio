@@ -13,7 +13,10 @@ const About = () => {
         <h2 className={styles.sectionHeadText}>Overview</h2>
       </motion.dev>
 
-      <motion.p variants={fadeIn("", "", 0.1, 1)}>
+      <motion.p
+        variants={fadeIn("", "", 0.1, 1)}
+        className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
+      >
         Software Developer with self earned experience in both front-end and
         back-end development.
       </motion.p>
