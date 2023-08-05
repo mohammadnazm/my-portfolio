@@ -22,6 +22,7 @@ import {
   tripguide,
   threejs,
   mySql,
+  java,
 } from "../assets"
 
 export const navLinks = [
@@ -106,6 +107,10 @@ const technologies = [
   {
     name: "figma",
     icon: figma,
+  },
+  {
+    name: "java",
+    icon: java,
   },
 ]
 

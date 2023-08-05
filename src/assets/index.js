@@ -31,6 +31,7 @@ import jobit from "./jobit.png"
 import tripguide from "./tripguide.png"
 
 import mySql from "./mySql.png"
+import java from "./java.png"
 
 export {
   logo,
@@ -45,6 +46,7 @@ export {
   docker,
   figma,
   git,
+  java,
   html,
   javascript,
   mongodb,
