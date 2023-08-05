@@ -5,6 +5,7 @@ import { styles } from "../styles"
 import { services } from "../constants"
 import { fadeIn, textVariant } from "../utils/motion"
 import { Tilt } from "react-tilt"
+import { SectionWrapper } from "../hoc"
 
 const ServiceCard = ({ index, title, icon }) => {
   return (
@@ -55,4 +56,5 @@ const About = () => {
   )
 }
 
-export default About
+// eslint-disable-next-line react-refresh/only-export-components
+export default SectionWrapper(About, "about")
