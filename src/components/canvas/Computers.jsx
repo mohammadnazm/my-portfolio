@@ -10,7 +10,11 @@ const Computers = () => {
     <mesh>
       <hemisphereLight intensity={0.15} groundColor="black" />
       <pointLight intensity={1} />
-      <primitive object={computer.scene} />
+      <primitive
+        object={computer.scene}
+        scale={0.75}
+        position={[0, -3.25, -1.5]}
+      />
     </mesh>
   )
 }
@@ -20,7 +24,7 @@ const ComputersCanvas = () => {
     <Canvas
       frameLoop="demand"
       shadows
-      camera={{ position: [20, 3, 5] }}
+      camera={{ position: [20, 3, 5], fov: 25 }}
       gl={{ preserveDrawingBuffer: true }}
     >
       <Suspense fallback={<CanvasLoader />}>
@@ -31,6 +35,8 @@ const ComputersCanvas = () => {
         />
         <Computers />
       </Suspense>
+
+      <Preload all />
     </Canvas>
   )
 }
