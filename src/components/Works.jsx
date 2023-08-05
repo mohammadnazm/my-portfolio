@@ -5,6 +5,30 @@ import { styles } from "../styles"
 import { github } from "../assets"
 import { SectionWrapper } from "../hoc"
 import { fadeIn, textVariant } from "../utils/motion"
+import { projects } from "../constants"
+import { Tilt } from "react-tilt"
+
+const ProjectCard = ({
+  index,
+  name,
+  description,
+  tags,
+  image,
+  source_code_link,
+}) => {
+  return (
+    <motion.dev variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+      <Tilt
+        options={{
+          max: 45,
+          scale: 1,
+          speed: 450,
+        }}
+        className="bg-tertiary p-5 rounded-2xl sm:w[360px] w-full"
+      ></Tilt>
+    </motion.dev>
+  )
+}
 
 const Works = () => {
   return (
@@ -25,6 +49,11 @@ const Works = () => {
           ability to solve complex problems, work with different technologies,
           and manage projects effectively.
         </motion.p>
+      </div>
+      <div className="mt-20 flex flex-wrap gap-7">
+        {projects.map((project, index) => (
+          <ProjectCard key={`project-${index}`} index={index} {...project} />
+        ))}
       </div>
     </>
   )
