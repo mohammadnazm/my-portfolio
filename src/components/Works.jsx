@@ -30,7 +30,7 @@ const ProjectCard = ({
           <img
             src={image}
             alt={name}
-            className="w-full h-full object-cover rounded-2xll"
+            className="w-full h-full object-cover rounded-2xl"
           ></img>
         </div>
       </Tilt>
