@@ -8,10 +8,15 @@ import { fadeIn, textVariant } from "../utils/motion"
 const About = () => {
   return (
     <>
-      <motion.dev>
+      <motion.dev variants={textVariant()}>
         <p className={styles.sectionSubText}>Introduction</p>
         <h2 className={styles.sectionHeadText}>Overview</h2>
       </motion.dev>
+
+      <motion.p variants={fadeIn("", "", 0.1, 1)}>
+        Software Developer with self earned experience in both front-end and
+        back-end development.
+      </motion.p>
     </>
   )
 }
