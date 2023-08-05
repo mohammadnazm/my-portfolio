@@ -17,21 +17,22 @@ const ProjectCard = ({
   source_code_link,
 }) => {
   return (
-    <motion.dev variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
       <Tilt
         options={{
           max: 45,
           scale: 1,
           speed: 450,
         }}
-        className="bg-tertiary p-5 rounded-2xl sm:w[360px] w-full"
+        className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
       >
         <div className="relative w-full h-[230px]">
           <img
             src={image}
-            alt={name}
+            alt="project_image"
             className="w-full h-full object-cover rounded-2xl"
           />
+
           <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
             <div
               onClick={() => window.open(source_code_link, "_blank")}
@@ -53,13 +54,16 @@ const ProjectCard = ({
 
         <div className="mt-4 flex flex-wrap gap-2">
           {tags.map(tag => (
-            <p key={tag.name} className={`text-[14px] ${tag.color}`}>
+            <p
+              key={`${name}-${tag.name}`}
+              className={`text-[14px] ${tag.color}`}
+            >
               #{tag.name}
             </p>
           ))}
         </div>
       </Tilt>
-    </motion.dev>
+    </motion.div>
   )
 }
 
@@ -92,4 +96,4 @@ const Works = () => {
   )
 }
 
-export default Works
+export default SectionWrapper(Works, "works")
