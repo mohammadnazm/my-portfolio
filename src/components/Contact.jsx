@@ -25,7 +25,20 @@ const Contact = () => {
     setForm({ ...form, [name]: value })
   }
 
-  const handleSubmit = e => {}
+  const handleSubmit = e => {
+    emailjs.send(
+      "service_mj25bv7",
+      "template_jkbtb8n",
+      {
+        from_name: form.name,
+        to_name: "Mohammad Nazm",
+        from_email: "mohammadnazm.anwar@gmail.com",
+        message: form.message,
+      },
+      "GCU31Zsy4hd69zWwl"
+    )
+  }
+
   return (
     <div className="xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden">
       <motion.dev
