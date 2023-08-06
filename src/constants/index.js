@@ -18,7 +18,7 @@ import {
   tesla,
   shopify,
   restaurant,
-  jobit,
+  ecommerce,
   tripguide,
   threejs,
   mysql,
@@ -179,30 +179,30 @@ const projects = [
     source_code_link: "https://github.com/mohammadnazm/restaurant-landing-page",
   },
   {
-    name: "Job IT",
+    name: "E-commerce Website",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Welcome to the E-commerce Website! This open-source project aims to provide a robust and feature-rich platform for e-commerce websites.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "context-api",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "e-commerce",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: ecommerce,
+    source_code_link: "https://github.com/mohammadnazm/e-commerce-website",
   },
   {
-    name: "Trip Guide",
+    name: "Weather App",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "WeatherApp is a user-friendly weather application that provides real-time weather updates for any location worldwide. Stay prepared with ease!.",
     tags: [
       {
         name: "nextjs",

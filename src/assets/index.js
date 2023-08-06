@@ -27,7 +27,7 @@ import aljazary from "./company/aljazary.png"
 import tesla from "./company/tesla.png"
 
 import restaurant from "./restaurant.png"
-import jobit from "./jobit.png"
+import ecommerce from "./ecommerce.png"
 import tripguide from "./tripguide.png"
 
 import mysql from "./mysql.png"
@@ -61,7 +61,7 @@ export {
   aljazary,
   tesla,
   restaurant,
-  jobit,
+  ecommerce,
   tripguide,
   mysql,
 }
