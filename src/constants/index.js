@@ -17,7 +17,7 @@ import {
   aljazary,
   tesla,
   shopify,
-  carrent,
+  restaurant,
   jobit,
   tripguide,
   threejs,
@@ -175,7 +175,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: restaurant,
     source_code_link: "https://github.com/mohammadnazm/restaurant-landing-page",
   },
   {

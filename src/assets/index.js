@@ -26,7 +26,7 @@ import shopify from "./company/shopify.png"
 import aljazary from "./company/aljazary.png"
 import tesla from "./company/tesla.png"
 
-import carrent from "./carrent.png"
+import restaurant from "./restaurant.png"
 import jobit from "./jobit.png"
 import tripguide from "./tripguide.png"
 
@@ -60,7 +60,7 @@ export {
   shopify,
   aljazary,
   tesla,
-  carrent,
+  restaurant,
   jobit,
   tripguide,
   mysql,
