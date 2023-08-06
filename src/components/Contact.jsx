@@ -26,17 +26,22 @@ const Contact = () => {
   }
 
   const handleSubmit = e => {
-    emailjs.send(
-      "service_mj25bv7",
-      "template_jkbtb8n",
-      {
-        from_name: form.name,
-        to_name: "Mohammad Nazm",
-        from_email: "mohammadnazm.anwar@gmail.com",
-        message: form.message,
-      },
-      "GCU31Zsy4hd69zWwl"
-    )
+    emailjs
+      .send(
+        "service_mj25bv7",
+        "template_jkbtb8n",
+        {
+          from_name: form.name,
+          to_name: "Mohammad Nazm",
+          from_email: "mohammadnazm.anwar@gmail.com",
+          message: form.message,
+        },
+        "GCU31Zsy4hd69zWwl"
+      )
+      .then(() => {
+        setLoading(false)
+        alert("Thank you. I will get back you as soon as possible")
+      })
   }
 
   return (
