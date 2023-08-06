@@ -205,15 +205,15 @@ const projects = [
       "WeatherApp is a user-friendly weather application that provides real-time weather updates for any location worldwide. Stay prepared with ease!.",
     tags: [
       {
-        name: "nextjs",
+        name: "reactjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "front-end",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "weather-app",
         color: "pink-text-gradient",
       },
     ],
