@@ -19,7 +19,7 @@ import {
   shopify,
   restaurant,
   ecommerce,
-  tripguide,
+  weatherapp,
   threejs,
   mysql,
   java,
@@ -217,7 +217,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: weatherapp,
     source_code_link: "https://github.com/",
   },
 ]
