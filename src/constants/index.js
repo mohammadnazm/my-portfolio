@@ -158,25 +158,25 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Restaurant Landing Page",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Welcome to the Restaurant Landing Page! This project showcases a modern and responsive landing page for a restaurant designed to captivate visitors and provide a delightful user experience.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "frontend",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "landing-page",
         color: "pink-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/mohammadnazm/restaurant-landing-page",
   },
   {
     name: "Job IT",
