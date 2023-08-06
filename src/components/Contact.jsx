@@ -7,6 +7,10 @@ import { EarthCanvas, StarsCanvas } from "./canvas"
 import { SectionWrapper } from "../hoc"
 import { slideIn } from "../utils/motion"
 
+// Public Key ==> GCU31Zsy4hd69zWwl
+// Template ID ==> template_jkbtb8n
+// Service ID ==> service_mj25bv7
+
 const Contact = () => {
   const formRef = useRef()
   const [form, setForm] = useState({
