@@ -9,11 +9,11 @@ Thank you for visiting my portfolio website repository. As a software developer,
 
 2. Skills and Expertise: Discover the diverse range of skills and technologies I possess. From front-end and back-end development and database management, my portfolio demonstrates my versatility and adaptability in the ever-evolving tech landscape.
 
-Responsive Design: My portfolio is designed with responsiveness in mind, ensuring a seamless browsing experience across different devices and screen sizes. Whether you're viewing it on a desktop, tablet, or mobile phone, the content will adapt to fit your screen perfectly.
+3. Responsive Design: My portfolio is designed with responsiveness in mind, ensuring a seamless browsing experience across different devices and screen sizes. Whether you're viewing it on a desktop, tablet, or mobile phone, the content will adapt to fit your screen perfectly.
 
-Contact and Collaboration: Easily get in touch with me using the contact form or the provided email address. Whether you're interested in potential collaboration opportunities, project inquiries, or just want to say hello, I'm always open to connecting with like-minded professionals.
+4. Contact and Collaboration: Easily get in touch with me using the contact form or the provided email address. Whether you're interested in potential collaboration opportunities, project inquiries, or just want to say hello, I'm always open to connecting with like-minded professionals.
 
-Portfolio Updates: As I continue to embark on exciting new projects and challenges, my portfolio will reflect the latest additions, ensuring visitors are up-to-date with my most recent work.
+5. Portfolio Updates: As I continue to embark on exciting new projects and challenges, my portfolio will reflect the latest additions, ensuring visitors are up-to-date with my most recent work.
 
 
 ## Installation
