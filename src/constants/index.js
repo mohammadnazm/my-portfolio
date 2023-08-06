@@ -14,7 +14,7 @@ import {
   git,
   figma,
   meta,
-  starbucks,
+  aljazary,
   tesla,
   shopify,
   carrent,
@@ -118,7 +118,7 @@ const experiences = [
   {
     title: "React.js Developer",
     company_name: "Al-Jazary",
-    icon: starbucks,
+    icon: aljazary,
     iconBg: "#383E56",
     date: "January 2022 - August 2022",
     points: [
