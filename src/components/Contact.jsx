@@ -45,9 +45,24 @@ const Contact = () => {
       .then(
         () => {
           setLoading(false)
-          toast.success("Thank you. I will get back you as soon as possible", {
-            position: toast.POSITION.TOP_RIGHT,
-          })
+          console.log(form.email)
+          if (form.email !== "" || form.message !== "" || form.name !== "") {
+            toast.success(
+              "Thank you. I will get back you as soon as possible",
+              {
+                position: toast.POSITION.TOP_RIGHT,
+              }
+            )
+          } else {
+            toast.warning("you should fill the form", {
+              position: toast.POSITION.TOP_CENTER,
+              autoClose: 3000, // Set the auto-close duration in milliseconds (e.g., 3000ms = 3 seconds)
+              pauseOnHover: true, // Pause the timer when hovering over the toast
+              draggable: true, // Allow dragging the toast notification
+              closeButton: true, // Show a close button to dismiss the toast
+              hideProgressBar: true, // Hide the progress bar
+            })
+          }
         },
         error => {
           setLoading(false)
