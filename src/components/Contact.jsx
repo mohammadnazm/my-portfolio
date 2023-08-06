@@ -54,7 +54,7 @@ const Contact = () => {
               }
             )
           } else {
-            toast.warning("you should fill the form", {
+            toast.warning("Please fill out all fields.", {
               position: toast.POSITION.TOP_CENTER,
               autoClose: 3000, // Set the auto-close duration in milliseconds (e.g., 3000ms = 3 seconds)
               pauseOnHover: true, // Pause the timer when hovering over the toast
