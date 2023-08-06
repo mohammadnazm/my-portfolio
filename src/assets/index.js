@@ -30,7 +30,7 @@ import carrent from "./carrent.png"
 import jobit from "./jobit.png"
 import tripguide from "./tripguide.png"
 
-import mySql from "./mySql.png"
+import mysql from "./mysql.png"
 import java from "./java.png"
 
 export {
@@ -63,5 +63,5 @@ export {
   carrent,
   jobit,
   tripguide,
-  mySql,
+  mysql,
 }

@@ -21,7 +21,7 @@ import {
   jobit,
   tripguide,
   threejs,
-  mySql,
+  mysql,
   java,
 } from "../assets"
 
@@ -97,8 +97,8 @@ const technologies = [
     icon: threejs,
   },
   {
-    name: "MySql",
-    icon: mySql,
+    name: "mysql",
+    icon: mysql,
   },
   {
     name: "git",
