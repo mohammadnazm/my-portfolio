@@ -10,7 +10,13 @@ const Stars = props => {
 
   return (
     <group>
-      <Points ref={ref} position={sphere} />
+      <Points
+        ref={ref}
+        positions={sphere}
+        stride={3}
+        frustumCulled
+        {...props}
+      />
     </group>
   )
 }
@@ -29,4 +35,4 @@ const StarsCanvas = () => {
   )
 }
 
-export default Stars
+export default StarsCanvas
