@@ -30,6 +30,19 @@ const Contact = () => {
     e.preventDefault()
     setLoading(true)
 
+    if (form.email === "" || form.message === "" || form.name === "") {
+      toast.warning("Please fill out all fields.", {
+        position: toast.POSITION.TOP_CENTER,
+        autoClose: 3000, // Set the auto-close duration in milliseconds (e.g., 3000ms = 3 seconds)
+        pauseOnHover: true, // Pause the timer when hovering over the toast
+        draggable: true, // Allow dragging the toast notification
+        closeButton: true, // Show a close button to dismiss the toast
+        hideProgressBar: true, // Hide the progress bar
+      })
+      setLoading(false)
+      return
+    }
+
     emailjs
       .send(
         "service_mj25bv7",
@@ -45,24 +58,9 @@ const Contact = () => {
       .then(
         () => {
           setLoading(false)
-          console.log(form.email)
-          if (form.email !== "" || form.message !== "" || form.name !== "") {
-            toast.success(
-              "Thank you. I will get back you as soon as possible",
-              {
-                position: toast.POSITION.TOP_RIGHT,
-              }
-            )
-          } else {
-            toast.warning("Please fill out all fields.", {
-              position: toast.POSITION.TOP_CENTER,
-              autoClose: 3000, // Set the auto-close duration in milliseconds (e.g., 3000ms = 3 seconds)
-              pauseOnHover: true, // Pause the timer when hovering over the toast
-              draggable: true, // Allow dragging the toast notification
-              closeButton: true, // Show a close button to dismiss the toast
-              hideProgressBar: true, // Hide the progress bar
-            })
-          }
+          toast.success("Thank you. I will get back you as soon as possible", {
+            position: toast.POSITION.TOP_RIGHT,
+          })
         },
         error => {
           setLoading(false)
