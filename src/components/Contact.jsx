@@ -6,6 +6,7 @@ import { styles } from "../styles"
 import { EarthCanvas, StarsCanvas } from "./canvas"
 import { SectionWrapper } from "../hoc"
 import { slideIn } from "../utils/motion"
+import { toast } from "react-toastify"
 
 // Public Key ==> GCU31Zsy4hd69zWwl
 // Template ID ==> template_jkbtb8n
@@ -26,6 +27,9 @@ const Contact = () => {
   }
 
   const handleSubmit = e => {
+    e.preventDefault()
+    setLoading(true)
+
     emailjs
       .send(
         "service_mj25bv7",
@@ -41,12 +45,21 @@ const Contact = () => {
       .then(
         () => {
           setLoading(false)
-          alert("Thank you. I will get back you as soon as possible")
+          toast.success("Thank you. I will get back you as soon as possible", {
+            position: toast.POSITION.TOP_RIGHT,
+          })
         },
         error => {
           setLoading(false)
           console.log(error)
-          alert("Something went wrong.")
+          toast.error("Oops! Something went wrong.", {
+            position: toast.POSITION.TOP_CENTER,
+            autoClose: 3000, // Set the auto-close duration in milliseconds (e.g., 3000ms = 3 seconds)
+            pauseOnHover: true, // Pause the timer when hovering over the toast
+            draggable: true, // Allow dragging the toast notification
+            closeButton: true, // Show a close button to dismiss the toast
+            hideProgressBar: true, // Hide the progress bar
+          })
         }
       )
   }
@@ -100,6 +113,7 @@ const Contact = () => {
             <button
               type="submit"
               className="bg-tertiary py-3 px-8 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl"
+              onClick={() => handleSubmit}
             >
               {loading ? "Sending..." : "Send"}
             </button>
