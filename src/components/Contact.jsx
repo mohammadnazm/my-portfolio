@@ -34,17 +34,37 @@ const Contact = () => {
         className="mt-12 flex flex-col gap-8"
       >
         <label className="flex flex-col">
-          <span className="flex flex-col">
-            <span className="text-white font-medium mb-4">Mohammad Nazm</span>
-            <input
-              type="text"
-              name="name"
-              value={form.name}
-              onChange={handleChange}
-              placeholder="What's your name"
-              className="bt-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-none font-medium"
-            ></input>
-          </span>
+          <span className="text-white font-medium mb-4">Mohammad Nazm</span>
+          <input
+            type="text"
+            name="name"
+            value={form.name}
+            onChange={handleChange}
+            placeholder="What's your name"
+            className="bt-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-none font-medium"
+          ></input>
+        </label>
+        <label className="flex flex-col">
+          <span className="text-white font-medium mb-4">Mohammad Nazm</span>
+          <input
+            type="email"
+            name="email"
+            value={form.email}
+            onChange={handleChange}
+            placeholder="What's your email"
+            className="bt-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-none font-medium"
+          ></input>
+        </label>
+        <label className="flex flex-col">
+          <span className="text-white font-medium mb-4">Mohammad Nazm</span>
+          <input
+            type="text"
+            name="name"
+            value={form.name}
+            onChange={handleChange}
+            placeholder="What's your name"
+            className="bt-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-none font-medium"
+          ></input>
         </label>
       </form>
     </div>
