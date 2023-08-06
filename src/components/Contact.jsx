@@ -38,10 +38,17 @@ const Contact = () => {
         },
         "GCU31Zsy4hd69zWwl"
       )
-      .then(() => {
-        setLoading(false)
-        alert("Thank you. I will get back you as soon as possible")
-      })
+      .then(
+        () => {
+          setLoading(false)
+          alert("Thank you. I will get back you as soon as possible")
+        },
+        error => {
+          setLoading(false)
+          console.log(error)
+          alert("Something went wrong.")
+        }
+      )
   }
 
   return (
