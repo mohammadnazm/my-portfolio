@@ -45,7 +45,7 @@ const Contact = () => {
           ></input>
         </label>
         <label className="flex flex-col">
-          <span className="text-white font-medium mb-4">Mohammad Nazm</span>
+          <span className="text-white font-medium mb-4">Your Email</span>
           <input
             type="email"
             name="email"
@@ -56,15 +56,16 @@ const Contact = () => {
           ></input>
         </label>
         <label className="flex flex-col">
-          <span className="text-white font-medium mb-4">Mohammad Nazm</span>
-          <input
+          <span className="text-white font-medium mb-4">Your Message</span>
+          <textarea
             type="text"
-            name="name"
-            value={form.name}
+            rows="7"
+            name="message"
+            value={form.message}
             onChange={handleChange}
-            placeholder="What's your name"
+            placeholder="What do you want to say"
             className="bt-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-none font-medium"
-          ></input>
+          ></textarea>
         </label>
       </form>
     </div>
