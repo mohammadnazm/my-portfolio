@@ -222,7 +222,7 @@ const projects = [
     source_code_link: "https://github.com/mohammadnazm/weather-app",
   },
   {
-    name: "E-commerce with Payment Integration",
+    name: "E-commerce with Payment Integration using strapi",
     description:
       "Full Stack E-Commerce Application With Payment Integration using Strapi & Sanity.",
     tags: [
