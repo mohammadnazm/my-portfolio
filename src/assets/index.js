@@ -28,6 +28,7 @@ import tesla from "./company/tesla.png"
 
 import restaurant from "./restaurant.png"
 import ecommerce from "./ecommerce.png"
+import ecommercestrapi from "./ecommercestrapi.png"
 import weatherapp from "./weatherapp.png"
 
 import mysql from "./mysql.png"
@@ -62,6 +63,7 @@ export {
   tesla,
   restaurant,
   ecommerce,
+  ecommercestrapi,
   weatherapp,
   mysql,
 }

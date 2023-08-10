@@ -19,6 +19,7 @@ import {
   shopify,
   restaurant,
   ecommerce,
+  ecommercestrapi,
   weatherapp,
   threejs,
   mysql,
@@ -197,7 +198,7 @@ const projects = [
       },
     ],
     image: ecommerce,
-    source_code_link: "https://github.com/mohammadnazm/e-commerce-website",
+    source_code_link: "https://github.com/mohammadnazm/e-commerce-react.js",
   },
   {
     name: "Weather App",
@@ -218,7 +219,28 @@ const projects = [
       },
     ],
     image: weatherapp,
-    source_code_link: "https://github.com/mohammadnazm/e-commerce-website",
+    source_code_link: "https://github.com/mohammadnazm/weather-app",
+  },
+  {
+    name: "E-commerce with Payment Integration",
+    description:
+      "Full Stack E-Commerce Application With Payment Integration using Strapi & Sanity.",
+    tags: [
+      {
+        name: "next.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "front-end",
+        color: "green-text-gradient",
+      },
+      {
+        name: "e-commerce",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: ecommercestrapi,
+    source_code_link: "https://github.com/mohammadnazm/e-commerce-next.js",
   },
 ]
 
