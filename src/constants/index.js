@@ -15,6 +15,7 @@ import {
   figma,
   meta,
   aljazary,
+  shkarrealestate,
   tesla,
   shopify,
   restaurant,
@@ -118,7 +119,19 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
+    title: "Full-stack Developer",
+    company_name: "Shkar Real Estate",
+    icon: shkarrealestate,
+    iconBg: "#383E56",
+    date: "January 2022 - August 2022",
+    points: [
+      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Proficiently used Git and Github on a daily basis for version control, collaboration, and seamless code management throughout the development lifecycle",
+    ],
+  },
+  {
+    title: "Frontend Developer",
     company_name: "Al-Jazary",
     icon: aljazary,
     iconBg: "#383E56",
