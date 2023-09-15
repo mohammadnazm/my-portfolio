@@ -20,6 +20,7 @@ import {
   restaurant,
   ecommerce,
   ecommercestrapi,
+  movieapp,
   weatherapp,
   threejs,
   mysql,
@@ -241,6 +242,27 @@ const projects = [
     ],
     image: ecommercestrapi,
     source_code_link: "https://github.com/mohammadnazm/e-commerce-next.js",
+  },
+  {
+    name: "Movix",
+    description:
+      "Welcome to MovieX, the cutting-edge movie app designed to enhance your cinematic experience.",
+    tags: [
+      {
+        name: "react.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "front-end",
+        color: "green-text-gradient",
+      },
+      {
+        name: "movie-app",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: movieapp,
+    source_code_link: "https://github.com/mohammadnazm/movie-app",
   },
 ]
 

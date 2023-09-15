@@ -44,8 +44,8 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        Javascript developer with experience in both front-end and back-end
-        development and focus on front-end development.
+        JavaScript developer with experience in front-end and back-end
+        development with a primary focus on front-end development.{" "}
       </motion.p>
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (
