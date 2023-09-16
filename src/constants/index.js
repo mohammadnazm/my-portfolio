@@ -16,6 +16,8 @@ import {
   meta,
   aljazary,
   shkarrealestate,
+  kakonsoft,
+  twekl,
   tesla,
   shopify,
   restaurant,
@@ -120,10 +122,26 @@ const technologies = [
 const experiences = [
   {
     title: "Full-stack Developer",
-    company_name: "Shkar Real Estate",
+    company_name: "Shkar Real Estate · Full-time",
     icon: shkarrealestate,
     iconBg: "#383E56",
-    date: "January 2022 - August 2022",
+    date: "Aug 2023 - Present",
+    points: [],
+  },
+  {
+    title: "Full-stack Developer",
+    company_name: "Twekl Company · Full-time",
+    icon: twekl,
+    iconBg: "#383E56",
+    date: "Aug 2022 - Aug 2023",
+    points: [],
+  },
+  {
+    title: "Frontend Developer",
+    company_name: "Al-Jazary · Full-time",
+    icon: aljazary,
+    iconBg: "#383E56",
+    date: "Jan 2022 - Aug 2022",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Participating in code reviews and providing constructive feedback to other developers.",
@@ -132,10 +150,10 @@ const experiences = [
   },
   {
     title: "Frontend Developer",
-    company_name: "Al-Jazary",
-    icon: aljazary,
+    company_name: "Kakon Soft · Internship",
+    icon: kakonsoft,
     iconBg: "#383E56",
-    date: "January 2022 - August 2022",
+    date: "Jun 2021 - Sep 2021",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Participating in code reviews and providing constructive feedback to other developers.",

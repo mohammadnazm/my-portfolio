@@ -24,7 +24,9 @@ import threejs from "./tech/threejs.svg"
 import meta from "./company/meta.png"
 import shopify from "./company/shopify.png"
 import aljazary from "./company/aljazary.png"
+import kakonsoft from "./company/kakonsoft.png"
 import shkarrealestate from "./company/shkarrealestate.jpeg"
+import twekl from "./company/twekl.png"
 import tesla from "./company/tesla.png"
 
 import restaurant from "./restaurant.png"
@@ -62,7 +64,9 @@ export {
   meta,
   shopify,
   aljazary,
+  kakonsoft,
   shkarrealestate,
+  twekl,
   tesla,
   restaurant,
   ecommerce,
