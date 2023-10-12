@@ -1,11 +1,11 @@
-import React from "react"
-import { motion } from "framer-motion"
+import React from "react";
+import { motion } from "framer-motion";
 
-import { styles } from "../styles"
-import { services } from "../constants"
-import { fadeIn, textVariant } from "../utils/motion"
-import { Tilt } from "react-tilt"
-import { SectionWrapper } from "../hoc"
+import { styles } from "../styles";
+import { services } from "../constants";
+import { fadeIn, textVariant } from "../utils/motion";
+import { Tilt } from "react-tilt";
+import { SectionWrapper } from "../hoc";
 
 const ServiceCard = ({ index, title, icon }) => {
   return (
@@ -29,8 +29,8 @@ const ServiceCard = ({ index, title, icon }) => {
         </div>
       </motion.div>
     </Tilt>
-  )
-}
+  );
+};
 
 const About = () => {
   return (
@@ -44,8 +44,12 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        JavaScript developer with experience in front-end and back-end
-        development with a primary focus on front-end development.{" "}
+        Highly motivated and skilled Software Engineer with a strong focus on
+        front-end development and a solid foundation in backend development. I'm
+        seeking a challenging position to leverage my technical skills and
+        experience in delivering high-quality software solutions. My passion
+        lies in creating exceptional user interfaces, and I'm dedicated to
+        producing top-notch results in front-end development.{" "}
       </motion.p>
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (
@@ -53,8 +57,8 @@ const About = () => {
         ))}
       </div>
     </>
-  )
-}
+  );
+};
 
 // eslint-disable-next-line react-refresh/only-export-components
-export default SectionWrapper(About, "about")
+export default SectionWrapper(About, "about");
