@@ -16,7 +16,7 @@ import {
   meta,
   aljazary,
   shkarrealestate,
-  kakonsoft,
+  // kakonsoft,
   twekl,
   tesla,
   shopify,
@@ -28,7 +28,7 @@ import {
   threejs,
   mysql,
   java,
-} from "../assets"
+} from "../assets";
 
 export const navLinks = [
   {
@@ -43,7 +43,7 @@ export const navLinks = [
     id: "contact",
     title: "Contact",
   },
-]
+];
 
 const services = [
   {
@@ -62,7 +62,7 @@ const services = [
     title: "Node js Developer",
     icon: creator,
   },
-]
+];
 
 const technologies = [
   {
@@ -117,20 +117,20 @@ const technologies = [
     name: "java",
     icon: java,
   },
-]
+];
 
 const experiences = [
+  // {
+  //   title: "Full-stack Developer",
+  //   company_name: "Shkar Real Estate · Full-time",
+  //   icon: shkarrealestate,
+  //   iconBg: "#383E56",
+  //   date: "Aug 2023 - Present",
+  //   points: [],
+  // },
   {
     title: "Full-stack Developer",
-    company_name: "Shkar Real Estate · Full-time",
-    icon: shkarrealestate,
-    iconBg: "#383E56",
-    date: "Aug 2023 - Present",
-    points: [],
-  },
-  {
-    title: "Full-stack Developer",
-    company_name: "Twekl Company · Full-time",
+    company_name: "Twekl Company · Full-time · Onsite",
     icon: twekl,
     iconBg: "#383E56",
     date: "Aug 2022 - Aug 2023",
@@ -138,7 +138,7 @@ const experiences = [
   },
   {
     title: "Frontend Developer",
-    company_name: "Al-Jazary · Full-time",
+    company_name: "Al-Jazary · Full-time · Onsite",
     icon: aljazary,
     iconBg: "#383E56",
     date: "Jan 2022 - Aug 2022",
@@ -148,19 +148,19 @@ const experiences = [
       "Proficiently used Git and Github on a daily basis for version control, collaboration, and seamless code management throughout the development lifecycle",
     ],
   },
-  {
-    title: "Frontend Developer",
-    company_name: "Kakon Soft · Internship",
-    icon: kakonsoft,
-    iconBg: "#383E56",
-    date: "Jun 2021 - Sep 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-      "Proficiently used Git and Github on a daily basis for version control, collaboration, and seamless code management throughout the development lifecycle",
-    ],
-  },
-]
+  // {
+  //   title: "Frontend Developer",
+  //   company_name: "Kakon Soft · Internship",
+  //   icon: kakonsoft,
+  //   iconBg: "#383E56",
+  //   date: "Jun 2021 - Sep 2021",
+  //   points: [
+  //     "Developing and maintaining web applications using React.js and other related technologies.",
+  //     "Participating in code reviews and providing constructive feedback to other developers.",
+  //     "Proficiently used Git and Github on a daily basis for version control, collaboration, and seamless code management throughout the development lifecycle",
+  //   ],
+  // },
+];
 
 const testimonials = [
   {
@@ -187,7 +187,7 @@ const testimonials = [
     company: "456 Enterprises",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
-]
+];
 
 const projects = [
   {
@@ -295,6 +295,6 @@ const projects = [
     image: movieapp,
     source_code_link: "https://github.com/mohammadnazm/movie-app",
   },
-]
+];
 
-export { services, technologies, experiences, testimonials, projects }
+export { services, technologies, experiences, testimonials, projects };
