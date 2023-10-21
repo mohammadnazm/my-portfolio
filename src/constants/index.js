@@ -120,14 +120,14 @@ const technologies = [
 ];
 
 const experiences = [
-  // {
-  //   title: "Full-stack Developer",
-  //   company_name: "Shkar Real Estate · Full-time",
-  //   icon: shkarrealestate,
-  //   iconBg: "#383E56",
-  //   date: "Aug 2023 - Present",
-  //   points: [],
-  // },
+  {
+    title: "Full-stack Developer",
+    company_name: "Shkar Real Estate · Full-time",
+    icon: shkarrealestate,
+    iconBg: "#383E56",
+    date: "Aug 2023 - Present",
+    points: [],
+  },
   {
     title: "Full-stack Developer",
     company_name: "Twekl Company · Full-time · Onsite",
