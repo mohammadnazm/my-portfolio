@@ -121,15 +121,15 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Full-stack Developer",
-    company_name: "Shkar Real Estate · Full-time",
+    title: "Full Stack Developer",
+    company_name: "Shkar Real Estate · Full-time · Onsite",
     icon: shkarrealestate,
     iconBg: "#383E56",
     date: "Aug 2023 - Present",
     points: [],
   },
   {
-    title: "Full-stack Developer",
+    title: "Full Stack Developer",
     company_name: "Twekl Company · Full-time · Onsite",
     icon: twekl,
     iconBg: "#383E56",
