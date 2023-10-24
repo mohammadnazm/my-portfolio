@@ -148,18 +148,6 @@ const experiences = [
       "Proficiently used Git and Github on a daily basis for version control, collaboration, and seamless code management throughout the development lifecycle",
     ],
   },
-  // {
-  //   title: "Frontend Developer",
-  //   company_name: "Kakon Soft · Internship",
-  //   icon: kakonsoft,
-  //   iconBg: "#383E56",
-  //   date: "Jun 2021 - Sep 2021",
-  //   points: [
-  //     "Developing and maintaining web applications using React.js and other related technologies.",
-  //     "Participating in code reviews and providing constructive feedback to other developers.",
-  //     "Proficiently used Git and Github on a daily basis for version control, collaboration, and seamless code management throughout the development lifecycle",
-  //   ],
-  // },
 ];
 
 const testimonials = [
